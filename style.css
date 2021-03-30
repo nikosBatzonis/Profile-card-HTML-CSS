@@ -1,0 +1,154 @@
+*{box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: Kumbh Sans;
+   margin: 0 Auto;
+   padding: 0;
+   width: 100vw;
+   height: 100vh;
+   overflow:hidden;
+}
+
+.image1 {
+    position:relative;
+    padding-bottom: 455px;
+}
+
+.a {
+    position: absolute;
+    height: 420px;
+    margin-top: -230px;
+    margin-left: -210px;
+}
+
+@media (min-width: 700px){
+    .a{
+        left: 5%;
+        height: 700px;
+        top: -150px
+    }}
+
+.image2{
+    position:relative;
+}
+
+.b {
+    position: absolute; 
+    height: 400px;
+    top: 350px;
+    left: 250px;
+}
+
+@media (min-width: 700px){
+    .b{
+        left: 55%;
+        height: 700px;
+        top: 300px
+    }}
+
+.main{
+    position:relative;
+    width: 80%;
+    top: -50%;
+    left: 10%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 15px;
+    height: 60%;
+}
+
+@media (min-width: 700px) {
+    .main{
+        height: 60%;
+        width: 30%;
+        left: 35%;
+        top:-55%
+    }}
+
+.c{
+    position:absolute;
+    width:100%;
+    bottom: 70%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.name{
+    position:absolute;
+    top: 12%;
+}
+
+.e {
+    border-radius: 70px;
+    border: 5px solid white ;
+    margin-left: -45%;
+}
+
+.data{
+    position:absolute;
+    top: 50%;
+    width: 100%;
+    left: 35%;
+} 
+
+p{
+    margin-top: -5%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h4{
+    margin-top: -3%;
+    margin-left: 30px;
+
+}
+.flk{
+    position: absolute;
+    right:0%;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    width: 100%;
+    border-top: 1.9px solid hsl(0, 1%, 86%);
+    top: 70%
+} 
+
+h2{
+    color: black;
+}
+
+h2, h3{ 
+    font-size: 18px;
+    top: -15%;
+}
+
+h3, h4, strong{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h3{
+    font-size: 14px;
+}
+
+.attribution{
+    position:relative;
+    margin-top: -55%;
+    color: black;
+    font-size: 12px;
+    padding-left: 20px;
+    width: 40%;
+}   
+
+@media (min-width: 700px) {
+    .attribution{
+        width: 17%;
+        padding-top: 480px;
+    }}
